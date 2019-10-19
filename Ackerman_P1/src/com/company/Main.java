@@ -83,7 +83,7 @@ public class Main {
             }
         }
 
-        if (tally > 8){
+        if (tally >= 8){
             System.out.println("Congratulations, you are ready to go to the next level!");
             System.out.println("You got " + tally + " right out of 10 questions!");
         }
